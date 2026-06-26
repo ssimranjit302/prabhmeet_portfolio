@@ -13,17 +13,17 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/logo_photoshop.png",
-  "/images/logo_illustrator.png",
-  "/images/logo_indesign.png",
-  "/images/logo_figma.png",
-  "/images/logo_premiere.png",
-  "/images/logo_aftereffects.png",
-  "/images/logo_branding.png",
-  "/images/logo_youtube.png",
-  "/images/logo_twitter.png",
-  "/images/logo_instagram.png",
-  "/images/logo_facebook.png",
+  "./images/logo_photoshop.png",
+  "./images/logo_illustrator.png",
+  "./images/logo_indesign.png",
+  "./images/logo_figma.png",
+  "./images/logo_premiere.png",
+  "./images/logo_aftereffects.png",
+  "./images/logo_branding.png",
+  "./images/logo_youtube.png",
+  "./images/logo_twitter.png",
+  "./images/logo_instagram.png",
+  "./images/logo_facebook.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -207,7 +207,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files="./models/char_enviorment.hdr"
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />

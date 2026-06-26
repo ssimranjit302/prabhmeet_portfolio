@@ -10,43 +10,43 @@ const projects = [
     title: "Graphic Design Portfolio",
     category: "Graphic Design",
     tools: "Posters, Packaging, Logos, Typography",
-    image: "/projects/graphic_designing_thumb-01.jpg",
+    image: "./projects/graphic_designing_thumb-01.jpg",
     link: "https://drive.google.com/YOUR_DRIVE_LINK_HERE"
   },
   {
     title: "Shulikina",
     category: "Branding",
     tools: "Fashion Brand, Sustainable Luxury",
-    image: "/projects/Shulikina_thumb-01.jpg",
+    image: "./projects/Shulikina_thumb-01.jpg",
     link: "https://drive.google.com/YOUR_DRIVE_LINK_HERE"
   },
   {
     title: "GOFORSYS Technologies",
     category: "Branding",
     tools: "IT Company Identity, Guidelines",
-    image: "/projects/GOFORSYS_thumb-01.jpg",
+    image: "./projects/GOFORSYS_thumb-01.jpg",
     link: "https://drive.google.com/YOUR_DRIVE_LINK_HERE"
   },
   {
     title: "Shivaneel Hospitality",
     category: "Branding",
     tools: "Hospitality Branding, Monogram",
-    image: "/projects/Shivaneel_thumb-1.jpg",
+    image: "./projects/Shivaneel_thumb-1.jpg",
     link: "https://drive.google.com/YOUR_DRIVE_LINK_HERE"
   },
   {
     title: "Box Tech",
     category: "Branding",
     tools: "Brand Strategy, Scalable Minimalism",
-    image: "/projects/Box_Tech_thumb-01.jpg",
+    image: "./projects/Box_Tech_thumb-01.jpg",
     link: "https://drive.google.com/YOUR_DRIVE_LINK_HERE"
   },
   {
     title: "LIVA IS LIVE",
     category: "Social Media",
     tools: "YouTube Analytics, Growth, Engagement",
-    image: "/projects/social_media_analytics.jpg",
-    link: "/projects/social_media_analytics.jpg"
+    image: "./projects/social_media_analytics.jpg",
+    link: "./projects/social_media_analytics.jpg"
   }
 ];
 
